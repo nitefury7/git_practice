@@ -13,3 +13,5 @@ def solution(roman):
             i += len(rom)
     return result
 
+roman = input("Enter Roman Numeral: ")
+print("Decimal integer:",solution(roman))
